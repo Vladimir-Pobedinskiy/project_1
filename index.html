@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style_of_select.css">
+  <title>Заявление на назначение и выплаты единовременного пособия</title>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <script type="text/javascript" src="cusel-min-2.5.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function(){
+      /* select style */
+      var params = {
+        changedEl: "select",
+        visRows: 5,
+        scrollArrows: true
+      }
+      cuSel(params);
+    });
+  </script>
+</head>
+<body>
+  <div id="body">
+    <div class="container"></div>
+    <form method="get">
+      <div class = "heading_1">Заявление на назначение и выплаты единовременного пособия</div>
+      
+      <fieldset class="border">
+        <legend><i class="heading">Заявитель - Физическое лицо</i></legend>
+              <p class = "p"><label><span class = "text_of_input">Фамилия</span><span class ="star"> *</span> <input type="text" class="input" required></label></p>
+              <p class = "p"><label><span class = "text_of_input">Имя</span><span class ="star"> *</span> <input type="text" class="input" required></label></p>
+              <p class = "p"><label><span class = "text_of_input">Отчество &#160;&#160;</span> <input type="text" class="input"></label></p>
+              <p class = "p"><label><span class = "text_of_input">Статус</span><span class ="star"> *</span>
+              <select class="select">
+                  <option value="Усыновитель">Усыновитель</option>
+                  <option value="Приемный родитель">Приемный родитель</option>
+                  <option value="Опекун (Попечитель)">Опекун (Попечитель)</option>
+              </select>
+              </label>
+              </p>   
+      <fieldset class="border">
+        <legend><i class="heading">Адрес регистрации</i></legend>
+        <p class = "p"><label><span class = "text_of_input">Регион</span><span class ="star"> *</span> <input type="text" class="input_1" required placeholder="Еврейская автономная область"></label></p> 
+        <p class = "p"><label><span class = "text_of_input">Район</span><span class ="star"> *</span> <input type="text" class="input_1" required placeholder="Если района нет, то поставить прочек"></label></p>
+        <p class = "p"><label><span class = "text_of_input">Город</span>&#160; &#160;<input type="text" class="input_1"></label></p>
+        <p class = "p"><label><span class = "text_of_input">Населенный пункт</span>&#160; &#160;<input type="text" class="input_1"></label></p>
+        <p class = "p"><label><span class = "text_of_input">Улица</span><span class ="star"> *</span> <input type="text" class="input_1" required></label></p>
+        <p class = "p"><label><span class = "text_of_input">Индекс </span>&#160;&#160;<input type="text" class="input_dom"></label></p>
+        <p class = "p"><label><span class = "text_of_input">Дом</span><span class ="star"> *</span><input type="text" class="input_dom" required></label></p>
+        <p class = "p"><label><span class = "text_of_input">Корпус</span>&#160; &#160;<input type="text" class="input_dom"></label></p>
+        <p class = "p"><label><span class = "text_of_input">Квартира</span>&#160; &#160;<input type="text" class="input_dom"></label></p>
+      </fieldset>
+      
+      <fieldset class="border">
+        <legend><i class="heading">Адрес проживания</i></legend>
+        <p class = "p"><label><span class = "text_of_input">Регион</span><span class ="star"> *</span> <input type="text" class="input_1" required placeholder="Еврейская автономная область"></label></p>
+        <p class = "p"><label><span class = "text_of_input">Район</span><span class ="star"> *</span> <input type="text" class="input_1" required placeholder="Если района нет, то поставить прочек"></label></p>
+        <p class = "p"><label><span class = "text_of_input">Город</span>&#160; &#160;<input type="text" class="input_1"></label></p>
+        <p class = "p"><label><span class = "text_of_input">Населенный пункт</span>&#160; &#160;<input type="text" class="input_1"></label></p>
+        <p class = "p"><label><span class = "text_of_input">Улица</span><span class ="star"> *</span> <input type="text" class="input_1" required></label></p>
+        <p class = "p"><label><span class = "text_of_input">Индекс</span>&#160; &#160;<input type="text" class="input_dom"></label></p>
+        <p class = "p"><label><span class = "text_of_input">Дом</span><span class ="star"> *</span><input type="text" class="input_dom" required></label></p>
+        <p class = "p"><label><span class = "text_of_input">Корпус</span>&#160; &#160;<input type="text" class="input_dom"></label></p>
+        <p class = "p"><label><span class = "text_of_input">Квартира</span>&#160; &#160;<input type="text" class="input_dom"></label></p>
+      </fieldset>
+             
+      <fieldset class="border">
+        <legend><i class="heading">Данные основного документа удостоверяющего личность</i></legend>
+         <p class = "p"><label><span class = "text_of_input">Тип документа</span><span class ="star"> *</span>
+            <select class="block_4_of_blanc">
+                <option value="Паспорт РФ">Паспорт РФ</option>
+                <option value="Загранпаспорт РФ">Загранпаспорт РФ</option>
+            </select>
+            </label>
+         </p>  
+
+        <p class = "p"><label><span class = "text_of_input">Серия</span>&#160; &#160;<input type="text" class="input_1"></label></p>
+        <p class = "p"><label><span class = "text_of_input">Номер</span> <span class ="star"> *</span><input type="text" class="input_1" required></label></p>
+        <p class = "p"><label><span class = "text_of_input">Дата выдачи</span> <span class ="star"> *</span><span class = "input_date"><input type="date" class="date_input"></span></label><br><br></p>
+        <p class = "p"><label><span class = "text_of_input">Кем выдан</span> <span class ="star"> *</span><textarea  class = "textarea_scroll" name="   HeaderData" rows=2 cols=64> 
+        </textarea></label></p>
+      </fieldset> 
+      </fieldset>
+              
+      <fieldset class="border">
+        <legend><i class="heading">Заявление</i></legend>
+        <p class="font-size_of_zayavlenie_header">Прошу назначить и выплатить мне единовременное пособие при передаче ребенка на<br> воспитание в семью</p>
+        <p class = "float_of_zayavlenie_forma_ustroistva">Форма &#160;&#160;<br>устройста&#160;&#160;&#160;</p>
+           
+        <div class="font-size_of_zayavlenie">
+          <div class="radio">
+               <input class="radio__input" type="radio" name="zayavlenie" id="radio_1">
+               <label class="radio__label" for="radio_1"><div class="radio_text_1">на усыновление<br></div></label>
+          </div>
+          <div class="radio">
+               <input class="radio__input" type="radio" name="zayavlenie" id="radio_2">
+               <label class="radio__label" for="radio_2"><div class="radio_text_1"> в приемную семью<br></div></label>
+          </div>
+          <div class="radio">
+               <input class="radio__input" type="radio" name="zayavlenie" id="radio_3">
+               <label class="radio__label" for="radio_3"><div class="radio_text_1">под опеку (попечительство)<br></div></label>
+          </div>
+        </div>
+
+        <p class = "p"><label><span class = "float_of_zayavlenie_forma_ustroistva_2">Дата<br>устройста </span><span class ="star">*&#160;</span><span class = "date_2"><input type="date"></span></label></p>
+
+        <fieldset class="border"><legend><i class="heading">Сведения о ребенке</i></legend>
+        <p class = "p"><label><span class = "text_of_input">Фамилия</span><span class ="star"> *</span><input type="text" class="input_1" required></label></p>
+        <p class = "p"><label><span class = "text_of_input">Имя</span><span class ="star"> *</span> <input type="text" class="input_1" required></label></p>
+        <p class = "p"><label><span class = "text_of_input">Отчество</span>&#160; &#160;<input type="text" class="input_1"></label></p>         
+        <p class = "p"><label><span class = "text_of_input">Дата рождения</span><span class ="star"> *</span><span class = "date_3"><input type="date"></span class = "date_3"></label></p>
+      </fieldset>
+
+      <fieldset class="border">
+        <legend><i class="heading">Сведения о родителях</i></legend>
+      <fieldset class="border">
+        <legend><i class="heading">Сведения о матери ребенка</i></legend>
+        <p class = "p"><label><span class = "text_of_input">Фамилия</span><span class ="star"> *</span><input type="text" class="input_2" required></label></p>
+        <p class = "p"><label><span class = "text_of_input">Имя</span><span class ="star"> *</span><input type="text" class="input_2" required></label></p>
+        <p class = "p"><label><span class = "text_of_input">Отчество</span>&#160; &#160;<input type="text" class="input_2"></label></p>       
+        <p class = "p"><label><span class = "text_of_input">Дата рождения</span><span class ="star"> * </span><span class = "date_4"><input type="date"></span></label><br><br></p>
+
+        <p class = "p"><label><span class = "text_of_input">СНИЛС</span><span class ="star"> *</span><input type="text" class="input_2" required></label></p>
+      </fieldset>
+
+      <fieldset class="border">
+        <legend><i class="heading">Сведения об отце ребенка</i></legend>
+        <p class = "p"><label><span class = "text_of_input">Фамилия</span><span class ="star"> *</span><input type="text" class="input_2" required></label></p>
+        <p class = "p"><label><span class = "text_of_input">Имя</span><span class ="star"> *</span><input type="text" class="input_2" required></label></p>
+        <p class = "p"><label><span class = "text_of_input">Отчество</span>&#160; &#160;<input type="text" class="input_2"></label></p>      
+        <p class = "p"><label><span class = "text_of_input">Дата рождения</span><span class ="star"> * </span><span class = "date_4"><input type="date"></span></label><br><br></p>
+        <p class = "p"><label><span class = "text_of_input">СНИЛС</span><span class ="star"> *</span><input type="text" class="input_2" required></label></p>
+      </fieldset>
+     
+    
+      <div class = "svedeniya_o_roditelyah">
+       <div class="radio">
+          <input class="radio__input" type="radio" name="parents" id="radio__1">
+          <label class="radio__label" for="radio__1"><div class="radio_text_2">родители ребенка находятся под стражей или отбывают наказание в <br>виде лишения свободы<br></div></label>
+       </div>
+
+       <div class="radio">
+          <input class="radio__input" type="radio" name="parents" id="radio__2">
+          <label class="radio__label" for="radio__2"><div class="radio_text_2">родители ребенка не находятся под стражей и не отбывают наказание в<br>виде лишения свободы</div></label>
+       </div>
+      </div>
+
+
+      <fieldset class="border">
+        <p class = "svedeniya_o_roditelyah_p"><label><span class = "text_of_input">Код региона, в котором <br> находится учреждение <span class ="star">*</span> <br> отбывания наказания</span><input type="text" class="input_21" required></label></p>
+        <p class = "svedeniya_o_roditelyah_p"><label><span class = "text_of_input">Наименование <br>учреждения отбывания<span class ="star">*</span> <br>наказания</span><input type="text" class="input_21" required></label></p>
+      </fieldset>
+      </fieldset>
+
+      <p class="p_of_rekviziti">Единовременное пособие прошу перечислить на личный счет, открытый на мое имя в кредитной организации, расположеный на территории Российской Федерации</p>
+
+      <fieldset class="border">
+        <legend><i class="heading">Банковские реквизиты</i></legend>
+        <p class = "p"><label><span class = "text_of_input">Наименование банка</span><span class ="star"> *</span><input type="text" class="input_3" required></label></p>
+        <p class = "p"><label><span class = "text_of_input">БИК</span><span class ="star"> *</span><input type="text" class="input_3" required></label></p>
+        <p class = "p"><label><span class = "text_of_input">ИНН</span><span class ="star"> *</span><input type="text" class="input_3" required></label></p>
+        <p class = "p"><label><span class = "text_of_input">КПП</span><span class ="star"> *</span><input type="text" class="input_3" required></label></p>
+        <p class = "p"><label><span class = "text_of_input">Р/С</span><span class ="star"> *</span><input type="text" class="input_3" required></label></p>
+      </fieldset>
+      </fieldset>
+      
+      <fieldset class="border">
+        <legend><i class="heading">Прилагаемые документы</i></legend>
+
+        <p id="content_of_prilagaemie_documenty">Вступившее в законную силу решение суда об усыновлении либо выписка из решения<br> органов опеки и попечительства об установлении над ребенком опеки (попечительства), в<br> том числе по договору о приемной семье</p> 
+        <span class ="star_file-upload"> *</span>
+         <div class="file-upload">
+          <label>
+            <input type="file" name="file" id="uploade-file" required>
+            <span>Прикрепить</span>
+          </label>
+        </div>
+        <div id="file-name"></div>   
+      </fieldset>
+      
+     
+        <div><input type="submit" name="submit" value="Отправить" id="post_file"></div>
+    
+     
+    </form>
+  </div>
+
+  
+</body>
+
+
+</html>

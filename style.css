@@ -1,0 +1,430 @@
+
+#body {
+    max-width: 1024px;
+    min-width: 1024px;
+    margin: 0 auto;
+    background-color: #EFEBDE;
+    border: solid 2px;
+    border-color: #DEDCCE;
+    
+
+}
+
+.heading_1 {
+   font-size: 19.5px;
+   text-align: center;
+   font-weight: bolder; 
+   color: #244271;
+   margin-top: 15px;
+   
+}
+
+.heading {
+    color: #205ED6;
+    font-size: 18px;
+    
+} 
+
+.border {
+   border-color: #DEDCCE;
+   border-radius: 5px;
+   margin-right: 3px;
+   margin-left: 3px;
+}
+
+.star {
+    color: red;
+}
+
+.input_property {
+    margin-bottom: 4px;
+}
+
+.float_of_zayavlenie_forma_ustroistva{
+    float: left;
+    margin-left: 140px;
+    font-size: 17px;
+    text-align: right;
+    margin-top: -3px;
+    font-weight: bold;
+}
+
+.float_of_zayavlenie_forma_ustroistva_2 {
+    float: left;
+    line-height: 18px;
+    margin-left: 140px;
+    margin-top: -10px;
+}
+
+.font-size_of_zayavlenie {
+    font-size: 18px;
+}
+
+.font-size_of_zayavlenie_header {
+    font-size: 19px;
+    font-weight: bolder;
+    margin-left: 126px;
+}
+
+.text_of_input {
+  margin-right: 2px;
+  padding-top: 2px;
+}
+
+.input {
+    margin-left: 6px;
+    width:70%;
+    float:right;
+    text-align:left;
+    margin-right: 59px;
+    border: solid 1.4px #98B1C5;
+}
+
+.input_1 {
+    margin-left: 6px;
+    width:72.5%;
+    float:right;
+    text-align:left;
+    margin-right: 42px;
+    border: solid 1.4px #98B1C5;
+    margin-left: 6px;
+}
+
+.input_2 {
+    margin-left: 6px;
+    width:75.1%;
+    float:right;
+    text-align:left;
+    margin-right: 25px;
+    border: solid 1.4px #98B1C5;
+    margin-left: 6px;
+}
+
+.input_3 {
+    margin-left: 6px;
+    width:72.5%;
+    float:right;
+    text-align:left;
+    margin-right: 42px;
+    border: solid 1.4px #98B1C5;
+    margin-left: 6px;
+}
+
+.input_21 {
+    margin-left: 6px;
+    width:74.8%;
+    float:right;
+    text-align:left;
+    margin-right: 29px;
+    border: solid 1.4px #98B1C5;
+    margin-left: 6px;
+}
+
+.input_dom {
+    width:13.5%;
+    float:right;
+    text-align:left;
+    margin-right: 45.25em;
+    border: solid 1.4px #98B1C5;
+    margin-left: 6px;
+}
+
+.input_of_low {
+    margin-left: 6px;
+    width:72.5%;
+    float:right;
+    text-align:left;
+    margin-right: 42px;
+    border: solid 1.4px #98B1C5;
+    margin-left: 6px;
+  margin-bottom: 30px;
+
+}
+
+.select{
+    width:70%;
+    margin-left: 3px;
+    margin-right: 4.2em;
+    border: solid 1.4px #98B1C5;
+}
+
+.block_4_of_blanc {
+  width:72.5%;
+  margin-right: 3em;
+  border: solid 1.4px #98B1C5;
+}
+
+.textarea_scroll {
+  width:72.2%;
+  margin-right: 3.1em;
+  margin-left: 6px;
+}
+
+.label {
+ text-align: right;
+
+}
+
+.p {
+
+    font-size: 17px;
+    text-align: right;
+    margin-right: 4px;
+    line-height: 12px;
+    font-weight: bold;
+}
+
+.input_date {
+    width:13.9%;
+    float:right;
+    text-align:left;
+    margin-right: 35.4em;
+    border-color: #98B1C5;
+    margin-left: 6px;
+}
+
+.date_2 {
+    width:13.9%;
+    float:right;
+    text-align:left;
+    margin-right: 36.1em;
+    border-color: #98B1C5;
+    
+}
+
+.date_3 {
+    width:13.9%;
+    float:right;
+    text-align:left;
+    margin-right: 35.4em;
+    border-color: #98B1C5;
+    margin-left: 6px;
+}
+
+.date_4 {
+    width:13.9%;
+    float:right;
+    text-align:left;
+    margin-right: 34.7em;
+    border-color: #98B1C5;
+}
+
+
+
+.svedeniya_o_roditelyah_p {
+    font-size: 18px;
+    font-weight: bolder;
+
+}
+
+.p_of_rekviziti {
+    padding-left: 115px;
+    padding-right: 95px;
+    text-align: left;
+    font-weight: bold;
+    font-size: 19px;
+    font-family: initial;
+}
+
+#content_of_prilagaemie_documenty {
+    font-size: 17px;
+    margin-left: 40px;
+    font-family: sans-serif;
+
+}
+
+ 
+#post_file {
+    font-family: initial;
+    border: 1.5px solid;
+    font-size: 18px;
+    border-color:#003C74;
+    border-radius: 6px;
+    line-height: 20px;
+    width: 140px;
+    height: 30px;
+    background-color: white;
+    margin-left: 45em;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.file {
+    margin-left: 53em;
+
+}
+
+
+
+
+/*стилизация radio*/
+
+/* Radio 1*/
+
+.font-size_of_zayavlenie {
+  margin-left: 234px;
+}
+
+.radio_text_1 {
+  height: 10px;
+  margin-left: 30px;
+  margin-top: -20px;
+  line-height: 10px;
+}
+
+@-moz-document url-prefix() {
+.radio_text_1 {
+  height: 30px;
+  margin-left: 30px;
+  margin-top: -20px;
+  line-height: 10px;
+}
+}
+
+/* Radio 2*/
+
+.svedeniya_o_roditelyah {       
+    margin-top: 30px;
+    margin-left: 215px;
+    
+}
+
+.radio_text_2 {
+  margin-left: 30px;
+  margin-top: -35px;
+}
+
+@-moz-document url-prefix() {
+  .radio_text_2 {
+    height: 65px;
+    margin-left: 30px;
+    margin-top: -35px;
+}
+}
+
+.radio {
+
+    position: relative;
+    margin-bottom: -0.2rem;
+}
+
+.radio__input {
+    -webkit-appearance: none;
+    appearance: none;
+    position: absolute;
+
+}
+
+.radio__label {
+    padding-left: 20px;
+    font-size: 18px;
+    cursor: pointer;
+    ;
+}
+
+.radio__label:before {
+    content: "";
+    display: block;
+    width: 14px;
+    height: 14px;
+
+    border: 1px solid #ccc;
+    background-color: #fff;
+    border-radius: 50%;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+
+    transition: border .1s linear;
+}
+
+.radio__label:after {
+    content: "";
+    display: block;
+    width: 6px;
+    height: 6px;
+
+    background-color: #28AB28;
+    border-radius: 50%;
+    opacity: 0;
+
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    z-index: 2;
+
+    transition: opacity .1s linear;
+}
+
+.radio__input:checked + .radio__label:before {
+    border: 1.1px solid #18517B;
+}
+
+.radio__input:checked + .radio__label:after {
+    opacity: 1;
+}
+
+
+/*кнопка выбора файла*/
+
+.file-upload input[type="file"]{
+display: none;/* скрываем input file */
+}
+
+/* задаем стили кнопки выбора файла*/
+
+.star_file-upload {
+float: right;
+margin-top: -70px;
+margin-right: 210px;
+color: red;
+}
+
+.file-upload {
+position: relative;
+overflow: hidden;
+width: 113px;
+height: 30px;
+    border: 1.5px solid;
+    border-color:#7B99B5;
+    border-radius: 6px;
+    line-height: 20px;
+    background-color: white;
+text-align: center;
+float: right;
+margin-top: -70px;
+margin-right: 90px;
+border-color:#003C74;
+}
+
+.file-upload:hover {
+color: red;
+}
+
+/* Растягиваем label на всю область блока .file-upload */
+
+.file-upload label {
+display: block;
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+cursor: pointer;
+}
+
+/* стиль текста на кнопке*/
+
+.file-upload span {
+line-height: 30px;
+font-family: initial;
+font-size: 18px;
+}
+
+/* удаление  маркера изменения размера у textarea*/
+
+textarea {
+    resize : none;
+}
